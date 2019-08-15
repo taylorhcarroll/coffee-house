@@ -1,0 +1,26 @@
+* {
+    /* border: 1px dashed black; */
+}
+
+.body {
+    width: 3em
+}
+.pageHeader {
+    /* order: 1px dashed black; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em
+}
+
+/* flex container */
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.shop {
+    border: 1px dashed black;
+    width: 30%;
+    text-align: center;
+}
